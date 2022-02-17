@@ -1,0 +1,109 @@
+let zrc = function (min, max){
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min + 6;
+};
+//console.log("Twoja zręczność: ", zrc(1,6));
+const wzrc = document.querySelector("#wzrc");
+const zrecznosc = document.querySelector("#zrecznosc");
+wzrc.addEventListener("click", function(){
+  zrecznosc.innerHTML = '<h3>' + zrc(1,6) + '</h3>';
+})
+
+let wyt = function (min, max){
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min + 12;
+  };
+//console.log("Twoja wytrzymałość: ", wyt(2,12));
+const wwyt = document.querySelector("#wwyt");
+const wytrzymalosc = document.querySelector("#wytrzymalosc");
+wwyt.addEventListener("click", function(){
+  wytrzymalosc.innerHTML = '<h3>' + wyt(2,12) + '</h3>';
+})
+
+let szc = function (min, max){
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min + 6;
+};
+//console.log("Twoje szczęście: ", szc(1,6));
+const wszc = document.querySelector("#wszc");
+const szczescie = document.querySelector("#szczescie");
+wszc.addEventListener("click", function() {
+  szczescie.innerHTML = '<h3>' + szc(1,6) + '</h3>';
+});
+
+//zrobić object statystyk potworow (przerobic na constructor/prototype)
+potwory ={
+  'pierwszy duch ognia' :{
+    pZrc : 7, 
+    pWyt : 4
+  },
+  'drugi duch ognia' :{
+    pZrc : 7,
+    pWyt : 3
+ },
+  'wielki pies' :{
+    pZrc : 7,
+    pWyt : 5
+  },
+  'slugus mistrza' :{
+    pZrc : 8,
+    pWyt : 9
+  }
+}; 
+
+//sprawdzenie statystyk potwora
+//console.log(potwory['pierwszy duch ognia']);
+
+//zrobic mechanike walki: 1.POTWOR(pwzrc = pzrc + (2k6)); 2.GRACZ(wzrc = zrc + 2k6); 3.WALKA jesli pwzrc>wzrc return wyt - 2; 4.jesli pwzrc==wzrc continue; 5.jesli pwzrc<wzrc return pwwyt - 2; powrot do pkt. 1
+//dodac mechanike szczescia w walce - *kiedys**KIEDYS*
+
+//statystyki do walki - ogarnac wersje unwersalna, bez wpisywania nazwy potwora
+let potwor = function (min, max){
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min + potwory['pierwszy duch ognia'].pZrc;
+};
+//console.log("Zręczność potwora w walce: ", potwor(2,12));
+let potworWalka = potwor(2,12);
+
+let gzrc = zrc(1,6);
+let postac = function (min, max){
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min + gzrc;
+};
+//console.log("Twoja zręczność w walce: ", postac(2,12));
+let postacWalka = postac(2,12);
+
+//walka
+//dodac tekst ROZPOCZYNA SIE WALKA
+//LICZNIK TUR
+//PRZYCISK DO KAZDEJ TURY
+
+//dodać zapętlenie dopoki ktoras statystyka == 0;
+console.log("Twoja bazowa zręczność: ", postacWalka);
+console.log("Bazowa zręczność potwora: ", potworWalka);
+let i = 0;
+do{
+if (postacWalka > potworWalka) {
+  potworWalka = potworWalka - 2;
+  console.log("Potwór słabnie. " + "Jego aktualna zręczność: " + potworWalka);
+  //return potworWalka; // <nie dziala
+} else if (postacWalka < potworWalka) {
+  postacWalka = postacWalka - 2;
+  console.log("Zostałeś zraniony. " + "Twoja aktualna zręczność: " + postacWalka);
+  //return postacWalka; // <nie dziala
+} else {
+  console.log("remis");
+}
+  i++;
+//break
+}
+while (i < 5); //rozwiazanie tymczasowe, az nie ogarne zeby dzialalo dopoki ktoras zrecznosc nie spadnie do 0
+  
+//console.log(wynik); //
+
+
