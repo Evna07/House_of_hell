@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <p><h1>DOM PEŁEN ZŁA</h1></p>
+  <hr>
+  <div id="opis>"</div>
+  <h1> ROZPOCZYNA SIĘ TWÓJ KOSZMAR </h1>
+  <div id="opis>"</div>
+  <h3> TWOJE STATYSTYKI</h3>
+
+  <button id="wzrc">Zręczność<zrecznosc/button>
+    <div id="zrecznosc"></div>
+    <button id="wwyt">Wytrzymałość<wytrzymalosc/button>
+    <div id="wytrzymalosc"></div>
+    <button id="wszc">Szczęście<szczescie/button>
+    <div id="szczescie"></div>
+      </button></button></button>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
