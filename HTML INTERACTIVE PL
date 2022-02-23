@@ -5,22 +5,52 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+     <style type="text/css">
+  </style>
+<div class="split left example">
     <p><h1>DOM PEŁEN ZŁA</h1></p>
-  <hr>
-  <div id="opis>"</div>
+  <hr>  
+<!--WSTĘP-->
+    <p>"Krople deszczu rozbijają się o przednią szybę. Pochylasz się do przodu, ale strumienie wody płynące po szybie to wciąż jedyne, co widzisz. Światła samochodu odbijają się od mokrej nawierzchni i mimo szalonej pracy wycieraczek ledwo dostrzegasz wyboje i dziury w jezdni. Auto nie radzi sobie z coraz mocniejszą ulewą. Zdejmujesz więc nogę z gazu i zwalniasz.<br><br> 'Cholera!' Przeklinasz siwowłosego starca, który skierował cię na tę wyboistą drogę. Prawdopodobnie miał na myśli drugi zakręt w lewo, a może nawet zakręt w prawo. Stary głupiec. Lub dowcipniś. Czyż nie zauważyłeś psotnego błysku w jego oku? Chociaż może to było coś bardziej złowieszczego? <br><br> Bzdury! Źle skręciłeś i złapała Cię ulewa, a ty wymyślasz jakieś nistworzone historie. Deszcz przecież musi zaraz przestać padać, a wtedy będziesz w stanie ... UWAŻAJ! <br><br> Nagle w świetle reflektorów dostrzegasz jakąś postać. Skręcasz kierownicę gwałtownie w lewo, a samochód trzęsie się i podskakuje, odbijając się od wyboistej drogi i wpada do rowu. <br><br> Zbierasz myśli. Nie jesteś ranny, to tylko szok. Powoli wspomnienia z kilki ostatnich minut układają się w całość. Ptrąciłeś człowieka! Zobaczyłeś go zbyt późno, nie ma szans, że zdołałeś go ominąć. Wyskakujesz z samochodu, modląc się, aby nadal żył. <br><br> Twoje ubranie jest całkiem mokre, deszcz ani myśli przestać padać. Kuśtykasz w stronę drogi, ale w ciemności nic nie widzisz. Nic tu nie ma, ani śladu ciała! <br><br> Co teraz? Czy jesteś pewien, że ktoś tu był? Nie, to nie mogło być złudzenie. Wyraźnie pamiętasz wyciągnięte w twoją stronę ramiona, jakby próbowały zatrzymać samochód. Pamiętasz też jego twarz o dziwnym wyrazie, pełną bólu i udręki. Jego twarz! Było w niej coś znajomego. Stary mężczyzna z białymi włosami... <br><br> Twoje serce podskakuje. Nie, niemożliwe! Wracasz do samochodu, wskakujesz do środka, wciskasz kluczyk do stacyjki i gwałtownie go przekręcasz! Rozrusznik kaszle, bulgocze i się zatrzymuje. <br><br> Spanikowany ponownie usiłujesz przekręcić kluczyk, ale ty razem silnik nawet nie próbuje ruszyć. Chwytasz kierownicę i desperacko nią potrząsasz, jakby miało to w czymkoliek pomóc. Nic nie możesz zrobić, pewnie padł akumulator. Dziś na pewno się stąd nie ruszysz. <br><br> Sytuacja wydaje się beznadziejna. Teraz jednak sprawa samochodu jest najważniejsza. Gdzie możesz uzyskać pomoc? Minąłeś serwis samochodowy w Mingleford, ale to było jakieś dwadzieścia kilometrów stąd. <br><br> W oddali pojawia się światło, jakby ktoś wysłuchał twoich modlitw. Masz szczęście! Ostatnią posesję mijałeś co najmniej piętnaście kilometrów wcześniej, a teraz znajdujesz sie dosłownie kilkaset metrów od czyjegoś domu. <br><br> Zapinasz płaszcz i otwierasz drzwi. Droga przed tobą prowadzi do dużego budynku. To jakieś pięć minut marszu i z pewnością całkowicie przemokniesz, alt to i tak lepiej, niż przypuszczałeś. Zadzwonisz po pomoc drogową i wszystko będzie dobrze. <br><br> Nie możesz przegapić jutrzejszego spotkania. Musisz się na nim pojawić. Miejmy nadzieję, że gospodarze pozwolą ci skorzystać z telefonu i osuszyć się w ciepłym miejscu. Zatrzaskujesz rzwi, podnosisz kołnierz i ruszasz w kierunku domu. Błysk pioruna oświetla go bardzo wyraźnie. To mogłoby być ostrzeżenie, ale zmoknięty i zmarznięty nie zwracasz na nie uwagi. Budynek jest stary, naprawdę stary i w wyjątkowo złym stanie. Światło w oknie migocze, to chyba lampa naftowa. Szybkim krokiem pokonujesz dystans dzielący cię od drzwi. Nie zauważasz nawet, że do budynku nie jest doprowadzona linia telefoniczna. Może gdybyś zarientował się w porę, zawróciłbyś? <br><br> Wchodzisz po schodach i zatrzymujesz się przed drzwiami, nie zdając sobie sprawy z tego, co tu na ciebie czeka... <br><br> Dzisiejszą noc zapamiętasz na długo...<br><br></p>
+    
+<!--STATYSTYKI-->
   <h1> ROZPOCZYNA SIĘ TWÓJ KOSZMAR </h1>
-  <div id="opis>"</div>
-  <h3> TWOJE STATYSTYKI</h3>
 
-  <button id="wzrc">Zręczność<zrecznosc/button>
+  <h3> TWOJE STATYSTYKI</h3>
+<div style="text-align: center">
+  <button id="bzrc">Zręczność<zrecznosc/button>
     <div id="zrecznosc"></div>
-    <button id="wwyt">Wytrzymałość<wytrzymalosc/button>
+  <button id="bwyt">Wytrzymałość<wytrzymalosc/button>
     <div id="wytrzymalosc"></div>
-    <button id="wszc">Szczęście<szczescie/button>
+  <button id="bszc">Szczęście<szczescie/button>
     <div id="szczescie"></div>
       </button></button></button>
+</div>
+<!--1-->
+      <p>Wspinasz się skrzypiącymi schodami do drzwi wejściowych. Zatrzymujesz się na chwilę, by złapać oddech. Mimo że biegłeś całą drogę z samochodu, jesteś teraz zupełnie przemoczony. Po drodze wszedłeś też chyba we wszystkie możliwe kałuże. Na naprawę tej wyboistej i dziurawej drogi potrzeba niewielkiej fortuny. Stoisz na zadaszonym ganku, otrzepujesz ubranie z wody i odwracasz się w stronę drzwi. Deszcz wciąż pada, mimo to jest tu niesamowicie cicho. Na dole nie palą się żadne światła. Wychylasz się, by sprawdzić okno na piętrze, które przyciągnęło twoją uwagę. Nic. Wszędzie ciemno. Przypominasz sobie, że jest już prawie północ. Wszyscy w domu prawdopodobnie poszli spać. W oddali pohukuje sowa, a po twoim ciele przechodzi zimny dreszcz. Myślisz o swojej sytuacji i wydaje ci się ona coraz bardziej przerażająca. Środek nocy, opuszczona okolica i tylko jeden stary, zaniedbany dom. Gospodarze z całą pewnością nie będą zadowoleni, że budzisz ich o tej porze. Nie masz jednak wyboru, jeśli jutro masz zdążyć na spotkanie, musisz skorzystać z telefonu, aby wezwać pomoc. Podchodzisz do frontowych drzwi. <br><br>Twoją uwagę przyciąga nagły blask. Ktoś włączył światło. Wzdychasz z ulgą, ponieważ wygląda na to, Że ktoś nie śpi. Co teraz? Możesz załomotać do drzwi <a href="#p_357">kołatką</a>, użyć wiszącego <a href="#p_275">dzwonka</a> lub przejść dookoła domu i zobaczyć, skąd dochodzi <a href="#p_289">światło</a>.</p>
+      <hr>
+<!--2-->
+      <p>Możesz teraz skręcić w prawo i sprawdzić drzwi do pokoju  <a href="#p_200">„Shaitan”</a> albo skręcić w lewo i podążać korytarzem, który skręca w prawo i prowadzi tuż obok dwóch pokoi oznaczonych jako „Asmodeusz” i „Eblis”. Dotrzesz wtedy do  <a href="#p_272">głównego korytarza z balustradą.</a></p>
+    <hr>
+<!--3-->
+      <p>Chwytasz pudełko i podchodzisz do lustra. Ponownie wkładasz rękę w jego taflę i po chwili ją wyciągasz. Wydaje się bezpieczne. Przechodzisz przez nie… w samą porę, bo gdy znikasz, po drugiej stronie lustra słyszysz otwierające się za tobą drzwi. Orientujesz się, że jesteś w małym pokoju za lustrem. Decydujesz się otworzyć skurzane pudełko. Wewnątrz znajduje się złoty klucz, który <a href="#p_160">wkładasz do kieszeni</a>.</p>
+    <hr>
+<!--4-->
+      <p>„Och, przypadkowy gość, co? Jak ci się podoba nasz loch, przyjacielu? To dla ciebie wystarczająco przyjemne? Dobrze się bawisz? Ha! Do klatki z nieszczęśnikiem!”. Asystenci oprawcy chwytają cię za nadgarstki i ciągną do ściany po lewej. „Pokażemy naszemu przyjacielowi, jacy jesteśmy gościnni – kontynuuje. – Jakiego rodzaju zakwaterowania sobie życzysz, przyjacielu? Resztę życia wolisz spędzić, kucając czy stojąc?”. W pomieszczeniu rozbrzmiewa okrutny śmiech. Jaka będzie twoja odpowiedź? Wybierzesz klatkę <a href="p_396">wysoką</a> czy <a href="p_201">niską</a>?</p>
+    <hr>
+<!--275-->
+      <p>Wciskasz <a id="p_275">dzwonek</a>. Z głębi domu słychać jego dźwięk, a chwilę później światło padające z bocznego okna <a href="#p_357">gaśnie</a>.</p>
+      <hr>
+<!--276-->
+      <p></p>
+<!--WALKA-->
+<p id="wynik"></p>
+    <script>
+      document.getElementById("wynik").innerHTML
+    </script>
+<!--KONIEC WALKI-->
+</div>
+<div class="split right">
+<!--TUTAJ KIEDYŚ BĘDZIE MAPA-->
+</div>
   </head>
-  <body>
-    <script src="sketch.js"></script>
-  </body>
-</html>
